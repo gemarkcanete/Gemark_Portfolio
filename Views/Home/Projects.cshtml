@@ -1,0 +1,19 @@
+﻿@model IEnumerable<Gemark_Portfolio.Models.Project>
+
+<h2>My Projects</h2>
+
+<div class="row">
+    @foreach (var project in Model)
+    {
+        <div class="col-md-4">
+            <div class="card mb-3">
+                <img src="@project.ImageUrl" class="card-img-top" />
+                <div class="card-body">
+                    <h5>@project.Title</h5>
+                    <p>@project.Description</p>
+                    <a href="@project.GitHubUrl" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
