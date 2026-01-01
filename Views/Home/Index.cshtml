@@ -2,23 +2,22 @@
     <div class="hero-text">
         <h1>
             <span>Hello, I’m</span><br />
-            Gemark 
+            <span class="name">Gemark Dalston Canete</span>
         </h1>
-        <p>ASP.NET MVC / Azure Engineer</p>
+        <h2 class="typing-text"></h2>
+
         <a href="~/files/Gemark-Canete-Resume.pdf"
            class="btn btn-primary btn-lg me-3"
            download>
             Download Resume
         </a>
-
     </div>
-
 
     <div class="hero-image">
-        <img src="~/images/port.png" />
+        <img src="~/images/port.png" alt="Portfolio Image" />
     </div>
 </section>
-<section id="about" class="about-section">
+<section id="about" class="about-section fade-in-section">
     <div class="container">
         <div class="row align-items-center">
 
@@ -47,43 +46,75 @@
                     user-friendly web applications.
                 </p>
 
-                <div class="experience mt-4 fade-in">
-                    <h4 class="experience-title">Experience</h4>
+                <!-- Timeline Section -->
+                <div class="experience mt-5">
+                    <h4 class="experience-title mb-4">Career Timeline & Certifications</h4>
 
-                    <div class="experience-item">
-                        <h5>Azure L2 Support Engineer</h5>
-                        <span class="experience-company">
-                            Accenture Philippines · 2024 – Present
-                        </span>
+                    <div class="timeline">
 
-                        <ul>
-                            <li>
-                                Provided Level 2 support for Azure-based applications,
-                                monitoring, incident resolution, and root cause analysis.
-                            </li>
-                            <li>
-                                Managed Azure resources including App Services,
-                                Azure SQL Database, Storage Accounts, and Networking.
-                            </li>
-                            <li>
-                                Investigated and resolved production issues related to
-                                deployments, configurations, and service availability.
-                            </li>
-                            <li>
-                                Collaborated with developers and global teams to
-                                ensure SLA compliance and system reliability.
-                            </li>
-                        </ul>
+                        <!-- Training / Bootcamp -->
+                        <div class="timeline-item">
+                            <div class="timeline-date">2024</div>
+                            <h5>Training / Bootcamp</h5>
+                            <span class="timeline-company">ASP.NET MVC, Web API, Azure, Azure DevOps (CI/CD), Azure Integration, PaaS</span>
+                            <ul>
+                                <li>Completed hands-on training in ASP.NET MVC, Web API, and Azure services</li>
+                                <li>Learned CI/CD pipelines in Azure DevOps</li>
+                                <li>Integrated cloud services and PaaS solutions for practice projects</li>
+                            </ul>
+                        </div>
+
+                        <!-- Projects during Training -->
+                        <div class="timeline-item">
+                            <div class="timeline-date">2024</div>
+                            <h5>Projects during Training Bootcamp</h5>
+                            <span class="timeline-company">Personal & Training Projects</span>
+                            <ul>
+                                <li>Real estate listing website with MVC and Azure SQL backend</li>
+                                <li>Dental appointment reservation system with Logic Apps + Service Bus</li>
+                                <li>Loan Management System with CRUD and SQL Server backend</li>
+                                <li>Portfolio website showcasing responsive MVC projects</li>
+                            </ul>
+                        </div>
+
+                        <!-- Azure L2 Support Engineer -->
+                        <div class="timeline-item">
+                            <div class="timeline-date">2024 – Present</div>
+                            <h5>Azure L2 Support Engineer</h5>
+                            <span class="timeline-company">Accenture Philippines (External company: Avanade)</span>
+                            <ul>
+                                <li>Provided Level 2 support for Azure applications, monitoring, and incident resolution</li>
+                                <li>Managed Azure resources: App Services, Azure SQL, Storage Accounts, and Networking</li>
+                                <li>Investigated and resolved production issues related to deployments and configurations</li>
+                                <li>Collaborated with developers and global teams to ensure SLA compliance</li>
+                            </ul>
+                        </div>
+
+                        <!-- Certifications -->
+                        <div class="timeline-item timeline-cert">
+                            <div class="timeline-date">September 2025</div>
+                            <h5>Microsoft Certified: Azure Fundamentals (AZ-900)</h5>
+                            <span class="timeline-company">Microsoft</span>
+                        </div>
+
+                        <div class="timeline-item timeline-cert">
+                            <div class="timeline-date">January 2026</div>
+                            <h5>Microsoft Certified: Azure Administrator Associate (AZ-104)</h5>
+                            <span class="timeline-company">Microsoft</span>
+                        </div>
+
                     </div>
                 </div>
 
             </div>
-
         </div>
     </div>
-
 </section>
-<section id="projects" class="projects-section">
+
+ </section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects-section fade-in-section">
     <div class="container">
 
         <h2 class="section-title text-center mb-5">Projects</h2>
@@ -111,13 +142,11 @@
                         </div>
 
                         <div class="project-links">
-                            <a href="#" class="btn btn-outline-primary btn-sm">Live</a>
-                            <a href="#" class="btn btn-outline-secondary btn-sm">Code</a>
+                             <a href="#" class="btn btn-outline-secondary btn-sm">Code</a>
                         </div>
                     </div>
                 </div>
             </div>
-
 
             <!-- PROJECT 2 -->
             <div class="col-md-4 fade-in">
@@ -138,8 +167,7 @@
                         </div>
 
                         <div class="project-links">
-                            <a class="btn btn-outline-primary btn-sm">Live</a>
-                            <a class="btn btn-outline-secondary btn-sm">Code</a>
+                             <a class="btn btn-outline-secondary btn-sm">Code</a>
                         </div>
                     </div>
                 </div>
@@ -164,8 +192,10 @@
                         </div>
 
                         <div class="project-links">
-                            <a class="btn btn-outline-primary btn-sm">Live</a>
-                            <a class="btn btn-outline-secondary btn-sm">Code</a>
+                             
+                            <a href="https://github.com/gemarkcanete/Gemark_Portfolio/" class="btn btn-outline-secondary btn-sm" target="_blank">
+                                Code
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -174,7 +204,9 @@
         </div>
     </div>
 </section>
-<section id="contact" class="contact-section">
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section fade-in-section">
     <div class="container">
 
         <h2 class="section-title text-center mb-5">Contact</h2>
@@ -192,16 +224,14 @@
                 <ul class="contact-info">
                     <li>
                         <strong>Email:</strong>
-                        <a href="mailto:gemark@email.com">
-                            gemark@email.com
-                        </a>
+                        <a href="mailto:gemark@email.com">gemarkcanete12@email.com</a>
                     </li>
                     <li>
                         <strong>Location:</strong> Philippines
                     </li>
                     <li>
                         <strong>LinkedIn:</strong>
-                        <a href="#" target="_blank">linkedin.com/in/gemark</a>
+                        <a href="https://www.linkedin.com/in/gemark-dalston-canete-8010b3312/" target="_blank">linkedin.com/in/gemark</a>
                     </li>
                 </ul>
             </div>
@@ -236,15 +266,57 @@
     </div>
 </section>
 
-
 <script>
-    const observer = new IntersectionObserver(entries => {
+document.addEventListener("DOMContentLoaded", function () {
+    // Fade-in on scroll
+    const faders = document.querySelectorAll('.fade-in, .fade-in-section');
+
+    const appearOptions = {
+        threshold: 0.2,
+        rootMargin: "0px 0px -50px 0px"
+    };
+
+    const appearOnScroll = new IntersectionObserver(function (entries, observer) {
         entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add("show");
-            }
+            if (!entry.isIntersecting) return;
+            entry.target.classList.add('show');
+            observer.unobserve(entry.target);
         });
+    }, appearOptions);
+
+    faders.forEach(fader => {
+        appearOnScroll.observe(fader);
     });
 
-    document.querySelectorAll(".fade-in").forEach(el => observer.observe(el));
+    // Typing effect
+    const text = "ASP.NET MVC / Azure Engineer";
+    const typingEl = document.querySelector(".typing-text");
+    let index = 0;
+    let forward = true; // Typing forward or deleting
+
+    function typeLoop() {
+        if (!typingEl) return; // safety check
+        if (forward) {
+            typingEl.textContent += text.charAt(index);
+            index++;
+            if (index === text.length) {
+                forward = false;
+                setTimeout(typeLoop, 1500); // pause at end
+                return;
+            }
+        } else {
+            typingEl.textContent = typingEl.textContent.slice(0, -1);
+            index--;
+            if (index === 0) {
+                forward = true;
+                setTimeout(typeLoop, 500); // pause at start
+                return;
+            }
+        }
+        setTimeout(typeLoop, 100);
+    }
+
+    typeLoop();
+});
 </script>
+
